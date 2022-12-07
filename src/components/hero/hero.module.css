@@ -1,0 +1,124 @@
+.hero {
+    padding-top: 137px;
+    padding-bottom: 155px;
+    z-index: 10;
+    /* overflow: hidden; */
+}
+
+.hero_content {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.title {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.hero_title {
+    font-size: 48px;
+}
+
+.hero_desc {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+}
+
+.hero_img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hero_btn {
+    display: inline-block;
+    width: 224px;
+    padding: 17px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    background: #6C93DE;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .hero_title {
+        font-size: 44px;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .hero_title {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 933px) {
+    .hero_title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 891px) {
+    .hero_title {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 849px) {
+    .hero_title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .hero_title {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        display: block;
+        padding-top: 109px;
+        padding-bottom: 139px;
+        /* z-index: 10; */
+        /* overflow: hidden; */
+    }
+    .hero_inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero_content {
+        padding-top: 40px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero_img {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero_title {
+        margin-bottom: 15px;
+        padding-top: 50px;
+        font-size: 24px;
+    }
+}

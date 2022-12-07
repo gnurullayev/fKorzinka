@@ -1,0 +1,26 @@
+.products_list {
+    margin-top: 74px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(287px, auto) ) ;
+    gap: 20px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+@media (min-width:1400px) {
+    .products_list {
+        grid-template-columns: repeat(auto-fit, minmax(400px, auto) ) ;
+    }
+}
+
+@media (max-width:619px) {
+    .products_list {
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(287px, 350px) ) ;
+    }
+}

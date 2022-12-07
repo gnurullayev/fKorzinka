@@ -1,0 +1,9 @@
+.products {
+    padding-top: 86px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.products_breadcrumb {
+    display: flex;
+}
