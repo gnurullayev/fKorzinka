@@ -55,7 +55,7 @@ ul {
 
 .swiper-slide {
   flex-direction: column;
-  justify-content: start !important;
+  justify-content: flex-start !important;
   font-size: 18px;
   cursor:grab;
 
